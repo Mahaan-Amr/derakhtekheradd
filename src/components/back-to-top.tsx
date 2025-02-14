@@ -38,7 +38,7 @@ export function BackToTop() {
           animate={{ opacity: 1, scale: 1 }}
           exit={{ opacity: 0, scale: 0.5 }}
           onClick={scrollToTop}
-          className="fixed bottom-8 left-8 p-4 bg-primary-red text-white rounded-full shadow-lg hover:bg-red-700 transition-colors z-50"
+          className="fixed bottom-8 left-8 p-4 bg-primary text-white rounded-full shadow-lg hover:bg-primary-secondary transition-colors z-50"
           aria-label="بازگشت به بالا"
         >
           <FaArrowUp className="h-6 w-6" />

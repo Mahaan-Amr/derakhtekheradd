@@ -244,7 +244,7 @@ export function CoursePreviewModal({ isOpen, onClose, course }: CoursePreviewMod
                         key={tab.id}
                         className={`flex items-center gap-2 px-4 py-2 border-b-2 transition-colors ${
                           activeTab === tab.id
-                            ? 'border-primary-red text-primary-red'
+                            ? 'border-primary text-primary'
                             : 'border-transparent text-gray-500 hover:text-gray-700 dark:text-gray-400 dark:hover:text-gray-200'
                         }`}
                         onClick={() => setActiveTab(tab.id)}
@@ -298,7 +298,7 @@ export function CoursePreviewModal({ isOpen, onClose, course }: CoursePreviewMod
                           key={index}
                           className="flex items-center gap-3 text-gray-600 dark:text-gray-300"
                         >
-                          <FaCheckCircle className="w-5 h-5 text-primary-red flex-shrink-0" />
+                          <FaCheckCircle className="w-5 h-5 text-primary flex-shrink-0" />
                           <span>{objective}</span>
                         </div>
                       ))}
@@ -308,11 +308,11 @@ export function CoursePreviewModal({ isOpen, onClose, course }: CoursePreviewMod
 
                 <div className="border-t dark:border-gray-700 pt-6">
                   <div className="flex items-center justify-between mb-6">
-                    <span className="text-2xl font-bold text-primary-red">
+                    <span className="text-2xl font-bold text-primary">
                       {formatPrice(course.price)} تومان
                     </span>
                     <button
-                      className="px-6 py-2 bg-primary-red text-white rounded-md hover:bg-red-700 transition-colors"
+                      className="px-6 py-2 bg-primary text-white rounded-md hover:bg-primary-secondary transition-colors"
                       onClick={() => {/* Handle enrollment */}}
                     >
                       ثبت‌نام در دوره

@@ -24,7 +24,7 @@ export function Navigation() {
         <div className="flex justify-between h-16">
           <div className="flex">
             <div className="flex-shrink-0 flex items-center">
-              <Link href="/" className="text-2xl font-bold text-primary-red">
+              <Link href="/" className="text-2xl font-bold text-primary">
                 درخت خرد
               </Link>
             </div>
@@ -33,7 +33,7 @@ export function Navigation() {
                 <Link
                   key={item.href}
                   href={item.href}
-                  className="inline-flex items-center px-1 pt-1 text-sm font-medium text-gray-900 dark:text-gray-100 hover:text-primary-red dark:hover:text-primary-red"
+                  className="inline-flex items-center px-1 pt-1 text-sm font-medium text-gray-900 dark:text-gray-100 hover:text-primary dark:hover:text-primary"
                 >
                   {item.name}
                 </Link>

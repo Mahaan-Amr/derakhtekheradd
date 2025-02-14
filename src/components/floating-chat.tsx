@@ -62,7 +62,7 @@ export function FloatingChat() {
 
       <motion.button
         className={`p-4 rounded-full shadow-lg text-white ${
-          isOpen ? 'bg-gray-600' : 'bg-primary-red'
+          isOpen ? 'bg-gray-600' : 'bg-primary'
         }`}
         whileHover={{ scale: 1.1 }}
         whileTap={{ scale: 0.9 }}

@@ -34,7 +34,7 @@ export function StickyHeader() {
       >
         <Navigation />
         <motion.div
-          className="absolute bottom-0 left-0 right-0 h-1 bg-primary-red origin-left"
+          className="absolute bottom-0 left-0 right-0 h-1 bg-primary origin-left"
           style={{ scaleX }}
         />
       </motion.div>

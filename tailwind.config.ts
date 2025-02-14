@@ -11,9 +11,9 @@ const config: Config = {
     extend: {
       colors: {
         primary: {
-          red: '#990607',
-          green: '#139253',
-          blue: '#0D6A97',
+          DEFAULT: '#007BFF',  // Primary Blue
+          secondary: '#0056b3', // Secondary Blue
+          accent: '#66B2FF',   // Accent Blue
         },
         background: "var(--background)",
         foreground: "var(--foreground)",

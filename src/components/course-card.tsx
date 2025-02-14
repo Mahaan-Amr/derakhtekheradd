@@ -93,7 +93,7 @@ export function CourseCard(course: CourseCardProps) {
             transition={{ duration: 0.3 }}
           >
             <button
-              className="px-4 py-2 bg-primary-red text-white rounded-md hover:bg-red-700 transition-colors"
+              className="px-4 py-2 bg-primary text-white rounded-md hover:bg-primary-secondary transition-colors"
               onClick={() => setIsModalOpen(true)}
             >
               مشاهده جزئیات
@@ -108,7 +108,7 @@ export function CourseCard(course: CourseCardProps) {
                 {course.title}
               </h3>
               <div className="flex items-center gap-2">
-                <span className="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-primary-red text-white">
+                <span className="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-primary text-white">
                   {course.level}
                 </span>
                 <div className="relative">
@@ -159,7 +159,7 @@ export function CourseCard(course: CourseCardProps) {
           </div>
 
           <div className="mt-4 flex justify-between items-center">
-            <div className="text-lg font-semibold text-primary-red">
+            <div className="text-lg font-semibold text-primary">
               {formatPrice(course.price)} تومان
             </div>
             <div className="text-sm text-gray-500 dark:text-gray-400">

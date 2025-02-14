@@ -95,7 +95,7 @@ export default function Home() {
       <HeroCarousel />
 
       {/* Statistics Section */}
-      <section className="bg-primary-red py-24">
+      <section className="bg-primary py-24">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 gap-8 md:grid-cols-4">
             <AnimatedStat endValue={1000} label="دانشجوی موفق" suffix="+" />
@@ -123,7 +123,7 @@ export default function Home() {
               <Tooltip content="اساتید ما دارای مدرک دکترا از دانشگاه‌های معتبر آلمان هستند">
                 <div className="text-center">
                   <div className="flex justify-center">
-                    <div className="p-4 bg-primary-red rounded-lg">
+                    <div className="p-4 bg-primary rounded-lg">
                       <FaGraduationCap className="h-8 w-8 text-white" />
                     </div>
                   </div>
@@ -137,7 +137,7 @@ export default function Home() {
               <Tooltip content="کلاس‌های کوچک برای توجه بیشتر به هر دانشجو">
                 <div className="text-center">
                   <div className="flex justify-center">
-                    <div className="p-4 bg-primary-red rounded-lg">
+                    <div className="p-4 bg-primary rounded-lg">
                       <FaUsers className="h-8 w-8 text-white" />
                     </div>
                   </div>
@@ -151,7 +151,7 @@ export default function Home() {
               <Tooltip content="امکان شرکت در کلاس‌ها به صورت آنلاین یا حضوری">
                 <div className="text-center">
                   <div className="flex justify-center">
-                    <div className="p-4 bg-primary-red rounded-lg">
+                    <div className="p-4 bg-primary rounded-lg">
                       <FaGlobe className="h-8 w-8 text-white" />
                     </div>
                   </div>
@@ -165,7 +165,7 @@ export default function Home() {
               <Tooltip content="گواهینامه معتبر مورد تایید موسسات آلمانی">
                 <div className="text-center">
                   <div className="flex justify-center">
-                    <div className="p-4 bg-primary-red rounded-lg">
+                    <div className="p-4 bg-primary rounded-lg">
                       <FaCertificate className="h-8 w-8 text-white" />
                     </div>
                   </div>
@@ -250,7 +250,7 @@ export default function Home() {
             <div className="mt-12 text-center">
               <a
                 href="/blog"
-                className="inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-md text-white bg-primary-red hover:bg-red-700"
+                className="inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-md text-white bg-primary hover:bg-primary-secondary"
               >
                 مشاهده همه مقالات
               </a>
@@ -292,7 +292,7 @@ export default function Home() {
 
       {/* Contact CTA Section */}
       <AnimatedSection>
-        <section className="bg-primary-red py-16">
+        <section className="bg-primary py-16">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center">
               <h2 className="text-3xl font-extrabold text-white sm:text-4xl">
@@ -304,13 +304,13 @@ export default function Home() {
               <div className="mt-8 flex justify-center">
                 <a
                   href="/contact"
-                  className="inline-flex items-center px-6 py-3 border-2 border-white text-base font-medium rounded-md text-white hover:bg-white hover:text-primary-red"
+                  className="inline-flex items-center px-6 py-3 border-2 border-white text-base font-medium rounded-md text-white hover:bg-white hover:text-primary"
                 >
                   تماس با ما
                 </a>
               </div>
             </div>
-    </div>
+          </div>
         </section>
       </AnimatedSection>
     </main>
